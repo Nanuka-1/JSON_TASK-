@@ -200,7 +200,7 @@ try:
     posts = posts_response.json()
     users = users_response.json()
 
-    # Create dict: userId -> user name
+    
     users_dict = {user["id"]: user["name"] for user in users}
 
     # 3. Print first 5 posts
