@@ -190,7 +190,7 @@ POSTS_URL = "https://jsonplaceholder.typicode.com/posts"
 USERS_URL = "https://jsonplaceholder.typicode.com/users"
 
 try:
-    #GET posts and users
+    
     posts_response = requests.get(POSTS_URL)
     users_response = requests.get(USERS_URL)
 
