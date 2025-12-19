@@ -203,7 +203,7 @@ try:
     
     users_dict = {user["id"]: user["name"] for user in users}
 
-    # 3. Print first 5 posts
+    
     print(" პირველი 5 პოსტი და მათი ავტორები:\n")
     for post in posts[:5]:
         title = post["title"]
